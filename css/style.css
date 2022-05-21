@@ -518,6 +518,7 @@
     .seccionDos{
         flex-direction: column-reverse;
         height: 800px;
+        justify-content: space-evenly;
     }
 
     .ilus{
@@ -551,6 +552,8 @@
 
     .reservas-formulario{
         align-items: inherit;
+        height: 400px;
+        justify-content: inherit;
     }
 
     .reservas-formulario h3{
@@ -566,7 +569,7 @@
     }
 
     .logoPie{
-        max-width: 450px;
+        max-width: 350px;
     }
 
     .seccion-cinco h2{
