@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,800&family=Poppins:wght@300;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Honey Honey</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header-logo" src="/img/LogoHoneyHoney.png" alt="Logo de Honey Honey">
+        <nav class="header-nav">
+            <ul class="header-lista">
+                <li> <a href="index.html">INICIO</a> </li>
+                <li> <a href="#carta">CARTA</a> </li>
+                <li> <a href="#shows">SHOWS</a> </li>
+                <li> <a href="#contacto">CONTACTO</a> </li>
+            </ul>
+            <button class="header-boton"><a href="#reservas">RESERVAS</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccionUno">
+            <h1>BIENVENIDOS A HONEY HONEY</h1>
+            <div class="fly-slider-divider"></div>
+            <h2>Buena Birra, Buena Burguer</h2>
+            <div class="fly-slider-divider-dos"></div>
+            <h3>CABRERA 353 - RÍO CUARTO - CÓRDOBA</h3>
+        </section>
+        <section class="seccionDos"  id="carta">
+            <div class="seccionDos-texto">
+                <h2>¿QUIERES VER NUESTRA CARTA COMPLETA?</h2>
+                <p>Contamos con una gran variedad de propuestas en comidas, bebidas y postres para que disfrutes</p>
+                <button class="header-boton boton"><a href="html/carta.html">VER CARTA COMPLETA</a></button>
+            </div>
+            <img class="ilus" src="./img/craft-beer-manufacturing-animate.svg" alt="">
+        </section>
+        <section class="seccionTres">
+            <div class="seccionTres-texto">
+                <h2 id="reservas">¡NO TE QUEDES SIN TU LUGAR!</h2>
+                <p>Realiza tu reserva a través de nuestro WhatsApp o completando el Formulario</p>
+            </div>
+            <div class="reservas">
+                <div class="reservas-whatsapp">
+                    <h3>Reservar por WhatsApp</h3>
+                    <img src="img/whatsapp.png" alt="">
+                </div>
+                <div class="reservas-formulario">
+                    <h3>Reservar completando el formulario</h3>
+                    <form action="" method="post">
+                        <div>
+                            <label for="nombreYapellido">Nombre y Apellido:</label>
+                            <input type="text" name="nombreYapellido" id="nombreYapellido">
+                        </div>
+
+                        <div>
+                            <label for="telefono">Número de teléfono:</label>
+                            <input type="tel" name="telefono">
+                        </div>
+
+                        <div>
+                            <label for="fecha">Fecha y Hora:</label>
+                            <input type="date">
+                            <input type="time">
+                        </div>
+
+                        <div>
+                            <label for="personas">Cantidad de personas:</label>
+                            <input type="number">
+                        </div>
+                        <button type="submit" class="header-boton botonDos"> <a href="#">Reservar</a></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-cuatro">
+            <h2 id="shows">PRÓXIMOS SHOWS</h2>
+            <div class="cartas-flex">
+                <div class="carta">
+                    <img src="img/ulises bueno1.jpg" alt="Ulises Bueno">
+                    <h3>ULISES BUENO en Patio Honey</h3>
+                    <p>24 de mayo 2022</p>
+                    <button><a href="#">Comprar ahora</a></button>
+                </div>
+                <div class="carta">
+                    <img src="img/la konga.jpg" alt="La Konga">
+                    <h3>LA KONGA en Honey Honey</h3>
+                    <p>15 de Junio 2022</p>
+                    <button><a href="#">Comprar ahora</a></button>
+                </div>
+                <div class="carta">
+                    <img src="img/lgante.jpg" alt="L-Gante">
+                    <h3>L-GANTE en Honey Honey</h3>
+                    <p>9 de Julio 2022</p>
+                    <button><a href="#">Comprar ahora</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-cinco" id="contacto">
+            <img class="logoPie" src="img/cropped-logopeneg-768x295.png" alt="">
+            <div>
+                <h2>Nuestras Redes Sociales</h2>
+                <div class="redes-sociales">
+                    <img src="/img/icono-facebook.png" alt="Icono de Facebook">
+                    <img src="/img/icono-instagram.png" alt="Icono de Instagram">
+                    <img src="/img/icono-youtube.png" alt="Icono de YouTube">
+                </div>  
+            </div>
+        </section>
+    </main>
+    <footer class="piedepagina">
+        <p>Copyright &#169 2022 - Todos los derechos reservados - HONEY HONEY</p>
+    </footer>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* USAR TIPOGRAFÍAS DE GOOGLE FONTS:
+    - font-family: 'Open Sans', sans-serif;
+    - font-family: 'Poppins', sans-serif; 
+*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-logo{
+    max-width: 270px;
+}
+
+.header-lista li{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.header-lista a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header-nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-lista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.header-boton{
+    outline: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #d4b412;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+.header-boton a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.seccionUno{
+    background-image: url(../img/seccion1.2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.seccionUno h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.seccionUno h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.seccionUno h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.fly-slider-divider{
+    width: 200px;
+    height: 4px;
+    background: #ffffff;
+    display: block;
+    margin: 20px auto 20px;
+}
+
+.fly-slider-divider-dos{
+    width: 100px;
+    height: 4px;
+    background: #ffffff;
+    display: block;
+    margin: 20px auto 20px;
+}
+
+.seccionDos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.seccionDos-texto{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+}
+
+.seccionDos-texto h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.seccionDos-texto p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.boton{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+}
+
+.ilus{
+    max-width: 400px;
+}
+
+.seccionTres{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.seccionTres-texto h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.seccionTres-texto p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.reservas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reservas-whatsapp{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservas-whatsapp h3{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.reservas-whatsapp img{
+    max-width: 150px;
+}
+
+.reservas-formulario{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservas-formulario h3{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.reservas-formulario form{
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.reservas-formulario form input{
+    padding: 5px;
+    font-size: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.botonDos{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.seccion-cuatro{
+    padding: 50px 45px;
+    background-color: rgb(230, 230, 230);
+}
+
+.seccion-cuatro h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.cartas-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    border: 3px solid rgb(0, 0, 0);
+    height: 340px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.carta h3{
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.carta p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.carta button{
+    padding: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(212, 180, 18);
+}
+
+.carta a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.seccion-cinco{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.logoPie{
+    display: block;
+    margin: auto;
+}
+
+.seccion-cinco h2{
+    text-align: center;
+    padding: 25px;
+    font-family: 'Open-sans', sans-serif;
+    font-size: 45px;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales img{
+    max-width: 80px;
+    padding: 10px;
+}
+
+.piedepagina{
+    font-size: 15px;
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 500;
+    padding: 8px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+}
+
+
+
+/* PÁGINA CARTA */
+
+.presentacion-carta{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px black solid;
+}
+
+.carta-comida{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 800px;
+    background-image: url(../img/burguercarta1.jpg);
+    background-size: cover;
+}
+
+.carta-bebida{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-image: url(../img/cervezacarta1.jpg);
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 800px;
+}
+
+.botonTres{
+    width: 30%;
+    border: solid black 2px;
+    font-weight: 600;
+}
+
+.carta-comida h2{
+    padding: 15px 30px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    background-color: #d4b412;
+    border: solid #000000 2px;
+    border-radius: 19px;
+}
+
+.carta-bebida h2{
+    padding: 15px 30px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    background-color: #d4b412;
+    border: solid #000000 2px;
+    border-radius: 19px;
+}
+
+.titulo-paginaCarta{
+    padding: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px black solid;
+}
+
+.comida-tipo{
+    background-color: #d4b412;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.comida-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.comida-descripcion h3{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 19px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.comida-descripcion p{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 16px;
+}
+
+.comida-precio{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rojo{
+    color: #f00606;
+}
+
+.border-top{
+    border-top: 2px solid rgb(0, 0, 0);
+    margin-top: 15px;
+}
+
+.bebida-tipo{
+    background-color: #000000;
+    color: #d4b412;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid #d4b412;
+    border-top: 2px solid #d4b412;
+}
+
+.comida-flex img{
+    max-width: 70px;
+}
+
+.comida-descripcion-icono{
+    display: flex;
+    align-items: initial;
+}
+
+/* CSS RESPONSIVE */
+
+@media only screen and (max-width:600px){
+
+    .header{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .header-lista{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-lista li{
+        padding: 5px;
+    }
+
+    .header-nav{
+        flex-direction: column;
+    }
+
+    .header-boton{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .seccionUno{
+        text-align: center;
+    }
+
+    .seccionUno h1{
+        font-size: 45px;
+    }
+
+    .seccionUno h2{
+        font-size: 33px;
+    }
+
+    .seccionUno h3{
+        font-size: 22px;
+    }
+
+    .seccionDos{
+        flex-direction: column-reverse;
+    }
+
+    .ilus{
+        max-width: 300px;
+    }
+
+    .seccionDos-texto{
+        width: 100%;
+        justify-content: inherit;
+        align-items: center;
+    }
+
+    .seccionDos-texto h2{
+        text-align: center;
+    }
+
+    .seccionDos-texto p{
+        text-align: center;
+    }
+
+    .reservas{
+        flex-direction: column;
+    }
+
+    .seccionTres-texto p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 500;
+    }
+
+    .reservas-formulario{
+        align-items: inherit;
+    }
+
+    .reservas-formulario h3{
+        text-align: center;
+    }
+
+    .carta{
+        width: 100%;
+    }
+
+    .cartas-flex{
+        flex-direction: column;
+    }
+
+    .logoPie{
+        max-width: 450px;
+    }
+
+    .seccion-cinco h2{
+        font-size: 30px;
+        font-style: italic;
+        color: #d6d6d6;
+    }
+
+    .redes-sociales img{
+        max-width: 60px;
+    }
+
+
+    /* PÁGINA CARTA RESPONSIVE */
+
+    .presentacion-carta{
+        flex-direction: column;
+    }
+
+    .carta-comida{
+        width: 100%;
+    }
+
+    .carta-bebida{
+        width: 100%;
+    }
+
+    .botonTres{
+        width: 40%;
+    }
+
+}
+
