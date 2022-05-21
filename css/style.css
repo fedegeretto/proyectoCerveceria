@@ -517,6 +517,7 @@
 
     .seccionDos{
         flex-direction: column-reverse;
+        height: 800px;
     }
 
     .ilus{
