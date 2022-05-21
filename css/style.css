@@ -543,6 +543,11 @@
         flex-direction: column;
     }
 
+    .reservas-formulario form{
+        height: 300px;
+        justify-content: space-around;
+    }
+
     .seccionTres-texto p{
         width: 90%;
         margin-left: auto;
