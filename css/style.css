@@ -546,6 +546,7 @@
     .reservas-formulario form{
         height: 300px;
         justify-content: space-around;
+        gap: 5px;
     }
 
     .seccionTres-texto p{
