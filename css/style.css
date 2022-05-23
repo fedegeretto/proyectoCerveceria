@@ -568,6 +568,7 @@
 
     .carta{
         width: 100%;
+        height: auto;
     }
 
     .cartas-flex{
